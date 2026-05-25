@@ -1,11 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-
-import SummaryCards from "./SummaryCards";
-import HealthTable from "./HealthTable";
-import PriceChart from "./PriceChart";
-import DataTable from "./DataTable";
+import DataTable from "../../components/dashboard/DataTable";
 
 export default function Dashboard() {
   const [aggregate, setAggregate] = useState(null);
